@@ -1,0 +1,51 @@
+* {
+  /* cleaning edges*/
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body{
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.header{
+  height: 5em;
+  padding: 3rem;
+  font-size: 2rem;
+  background-image: url("../imgs/Fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  color:white;
+}
+.camaras{
+  width: 80%;
+  margin-left: 250px;
+  padding-top: 20px;
+}
+.camaras td{
+  width: 250px;
+  padding: 20px 0px 20px 20px;
+  font-size: 18px;
+  text-align: justify;
+}
+.camaras img{
+  width: 250px;
+  border: solid 1px #0e3581;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.price{
+  text-align: center;
+  color: rgb(212, 11, 11);
+}
+.footer{
+  height: 3.5em;
+  line-height: 1.5em;
+  background-color: #0b2357;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+
+
